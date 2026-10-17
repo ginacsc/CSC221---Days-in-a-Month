@@ -29,7 +29,7 @@ int main() {
             numberOfDays = leapYear;
         }
 
-        else if (year % 4 == 0 && year % 100 == 0 && year % 400 == 0) {
+        else if (year % 400 == 0) {
             numberOfDays = leapYear;
         }
 
