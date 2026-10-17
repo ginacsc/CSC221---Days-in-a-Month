@@ -1,3 +1,4 @@
+//This program calculates the number of days in a month given a specific year.
 #include <iostream>
 using namespace std;
 
@@ -25,11 +26,13 @@ int main() {
 
     else if (month == 2)
     {
-        if (year % 4 == 0 && year % 100 != 0) {
+        if (year % 4 == 0 && year % 100 != 0)
+        {
             numberOfDays = leapYear;
         }
 
-        else if (year % 400 == 0) {
+        else if (year % 400 == 0)
+        {
             numberOfDays = leapYear;
         }
 
@@ -38,7 +41,8 @@ int main() {
             numberOfDays = 28;
         }
 
-        else if (year % 4 != 0) {
+        else if (year % 4 != 0)
+        {
             numberOfDays = 28;
         }
     }
